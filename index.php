@@ -5,28 +5,30 @@
  * Date: 24-1-2019
  * Time: 11:37
  */
-$a = "Ik heb niet gefaald.";
-$b = "die niet werken. ";
-$c = " 10000 manieren gevonden ";
-$d = " Ik heb alleen";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <title>PHP opdrachten</title>
 
-echo $a.$d.$c.$b;
+</head>
+<body>
+<ul>
+    <div id="Links">
+     <li>
+         <a href="H1&2">Hoofdstuk 1 & 2</a>
+     </li>
+    <li>
+         <a href="H3">Hoofstuk 3</a>
+    </li>
+    <li>
+         <a href="h4">Hoofdtuk 4</a>
+     </li>
+</ul>
+</div>
 
-$a2 = "die geen fouten";
-$b2 = "en";
-$c2 =  "niet.";
-
-echo "Mensen ".$a2.$b2.", werken ".$c2;
+</body>
+</html>
 
 
-$a3 = "ry";
-$b3 = ", but";
-$c3 = "fail";
-
-echo "T".$a3." and ".$b3.$c3." never try.";
-
-$a4 = "\"omgaan ";
-$b4 = "met ";
-$c4 = "teleu";
-
-echo " De cursus".$a4.$b4.$c4."rstelling\" kan vanavond helaas niet doorgaan.";

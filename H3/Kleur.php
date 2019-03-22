@@ -38,7 +38,7 @@ for ($i = 1; $i<= 9 ;$i++){
     } else{
         $class = "class='groen'";
     }
-    echo "<img ".$class."src='img/aap".$i.".jpg'>";
+    echo "<img ".$class.  "src='img/aap".$i.".jpg'>";
 }
 ?>
 </body>
